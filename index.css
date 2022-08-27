@@ -33,7 +33,7 @@ body {
     align-items: center;
     box-shadow: #333 3px 3px 3px;
 
-}text
+}
 
 .navigationIcon {
     position: relative;
@@ -251,7 +251,7 @@ ul li a {
     flex-wrap: wrap;
     text-align: center;
     margin: 10px;
-       justify-content: center;
+    justify-content: center;
     width: auto;
     height: auto;
 }
@@ -287,7 +287,7 @@ h2 {
 
 p span {
     text-decoration: underline;
-    color:orangered;
+    color: orangered;
 }
 
 .pro-h2,
@@ -328,9 +328,10 @@ div video {
         right: 0px;
         top: 30px;
         transition: 500ms all ease;
-              margin: 10px;
+        margin: 10px;
         font-weight: 400;
     }
+
     .menu {
         position: absolute;
         top: 55%;
@@ -340,46 +341,46 @@ div video {
         grid-template: repeat(5, 80px)/repeat(1, 8%);
         z-index: 3;
     }
-    
+
     .itemMenu:nth-child(1) {
         grid-area: 1/2/2/6;
         margin-right: -2px;
     }
-    
+
     .itemMenu:nth-child(2) {
         grid-area: 1/6/2/10;
-    
+
     }
-    
+
     .itemMenu:nth-child(3) {
         grid-area: 2/4/2/8;
         margin-right: -2px;
         margin-top: -2px;
     }
-    
+
     .itemMenu:nth-child(4) {
         grid-area: 2/8/3/8;
         margin-top: -2px;
-    
+
     }
-    
+
     .itemMenu:nth-child(5) {
         grid-area: 3/2/4/6;
         margin-top: -2px;
-    
+
     }
-    
+
     .itemMenu:nth-child(6) {
         grid-area: 3/6/3/10;
         margin-top: -2px;
         margin-left: -2px;
-    
+
     }
-    
+
     .itemMenu:nth-child(7) {
         grid-area: 4/4/5/11;
         margin-top: -2px;
-    
+
     }
 
 
@@ -423,7 +424,6 @@ div video {
         margin: auto;
         padding: 15px;
     }
-
 }
 
 @media screen and (max-width:544px) {
@@ -467,49 +467,48 @@ div video {
         display: grid;
         grid-template: repeat(5, 70px)/repeat(1, 8%);
         z-index: 3;
-    
     }
-    
+
     .itemMenu:nth-child(1) {
         grid-area: 1/2/2/6;
         margin-right: -2px;
     }
-    
+
     .itemMenu:nth-child(2) {
         grid-area: 1/6/2/10;
         margin-left: -2px;
     }
-    
+
     .itemMenu:nth-child(3) {
         grid-area: 2/2/3/8;
         margin-right: -2px;
         margin-top: -2px;
     }
-    
+
     .itemMenu:nth-child(4) {
         grid-area: 2/6/2/11;
         margin-left: -2px;
-    
     }
-    
+
     .itemMenu:nth-child(5) {
         grid-area: 3/2/4/6;
         margin-top: -2px;
-    
+
     }
-    
+
     .itemMenu:nth-child(6) {
         grid-area: 3/6/3/10;
         margin-top: -2px;
         margin-left: -2px;
-    
+
     }
-    
+
     .itemMenu:nth-child(7) {
         grid-area: 4/4/5/11;
         margin-top: -2px;
-    
+
     }
+
     .itemMenu a {
         text-decoration: none;
         color: white;
@@ -523,7 +522,8 @@ div video {
         font-weight: 400;
     }
 }
-@media screen and (max-width:420px){
+
+@media screen and (max-width:420px) {
     .menu {
         position: absolute;
         top: 40%;
@@ -532,6 +532,7 @@ div video {
         height: 20%;
         width: 15%;
     }
+
     .menu {
         height: 40%;
         width: 200px;
@@ -541,6 +542,7 @@ div video {
         height: auto;
         width: 150px;
     }
+
     .itemMenu a {
         text-decoration: none;
         color: white;
